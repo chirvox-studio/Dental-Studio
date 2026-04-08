@@ -1,0 +1,638 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: #000; /* Black */
+  border-bottom: 1px solid #222;
+}
+header h2 {
+  color: #d4af37; /* Gold */
+  font-weight: 700;
+}
+.nav .nav-link {
+  color: #fff !important;  /* White text */
+  font-weight: 500;
+  margin: 0 8px;
+  transition: 0.3s;
+}
+.nav .nav-link:hover,
+.nav .nav-link.active {
+  color: #d4af37 !important; /* Gold on hover */
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 0.8rem 1rem;
+  align-items: center;
+}
+
+.navbar-brand img {
+  max-height: 50px; /* keeps logo size consistent */
+}
+/* Ensure site name text is same size everywhere */
+.navbar-brand-text {
+  font-size: 2rem;         /* consistent size */
+  font-weight: 700;
+  color: #d4af37;          /* gold */
+  margin: 0;
+  line-height: 1.2;
+}
+/* Force uniform navbar height */
+.navbar {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    min-height: 80px; /* same height across all pages */
+}
+
+/* Fix body margin so content doesn't push navbar */
+body {
+    margin: 0;
+    padding: 0;
+}
+header.fixed-top {
+  height: 100px;              /* fixed height for header */
+  background: #000;           /* make sure bg is consistent */
+}
+
+header.fixed-top img {
+  height: 80px;               /* keep logo consistent */
+}
+
+header.fixed-top h2 {
+  font-size: 28px;            /* same text size everywhere */
+  line-height: 1;             /* prevent extra spacing */
+}
+body {
+  padding-top: 100px; /* move all page content down */
+}
+.section-title {
+  font-size: 2rem;         /* adjust size */
+  font-weight: bold;
+  color: #fff;             /* default (white) */
+}
+
+.section-title span {
+  color: #d4af37;          /* gold color */
+}
+
+
+/* Navbar */
+.navbar {
+  padding: 0.6rem 1rem;
+}
+.navbar-nav {
+  flex-direction: row; /* keep items in one line */
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 1rem;
+  white-space: nowrap; /* prevent breaking */
+}
+.navbar-nav .nav-link:hover {
+  color: #d4af37 !important;
+}
+
+/* Use full width instead of Bootstrap's default container */
+.container-fluid {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+
+/* SLIDER */
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #d4af37;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+/* CLINIC INFO */
+.clinic-info {
+  background: #fff;
+}
+.clinic-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+.clinic-doctor {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Buttons */
+.btn-book {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 35px;
+  padding: 12px 30px;
+  background: #d4af37;
+  color: #000;
+  border: none;
+  transition: 0.3s;
+}
+.btn-book:hover {
+  background: #b8912f;
+  color: #fff;
+  transform: translateY(-2px);
+}
+.btn-submit {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px;
+  transition: 0.3s;
+}
+.btn-submit:hover {
+  background: #d4af37;
+  color: #000;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 15px;
+  border: 1px solid #d4af37;
+  background: #fff;
+}
+.modal-title {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #000;
+}
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+.form-control:focus {
+  border-color: #d4af37;
+  box-shadow: none;
+}
+.note {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* FOOTER */
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 20px;
+  border-top: 1px solid #222;
+}
+
+.footer h5,
+.footer h6 {
+  color: #fff;
+}
+
+.footer p {
+  color: #aaa;
+}
+
+.footer a {
+  color: #fff;
+  margin-right: 12px;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #d4af37;
+}
+
+.text-gold {
+  color: #d4af37 !important;
+}
+
+/* FOOTER */
+.footer {
+  background: #000; /* pure black background */
+  color: #fff;
+  padding: 40px 20px;
+  border-top: 1px solid #222;
+  font-family: Arial, sans-serif;
+}
+
+/* Gold accent */
+.footer .text-gold {
+  color: #d4af37 !important;
+}
+
+/* Social Media Links */
+.footer a {
+  color: #fff;
+  margin-right: 12px;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #d4af37;
+}
+
+/* Layout */
+.footer .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Left (Social) */
+.footer-left {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Center (Impact Counters) */
+.footer-center {
+  flex: 2;
+  text-align: center;
+}
+.footer .impact-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+.footer .impact-card {
+  background: #111; /* slightly lighter than footer */
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px 25px;
+  min-width: 150px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.footer .impact-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.6);
+}
+.footer .impact-card h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: #d4af37;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.footer .impact-card h3 span:last-child {
+  font-size: 1.2rem; /* smaller + sign */
+  margin-left: 2px;
+}
+.footer .impact-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+/* Right (Address) */
+.footer-right {
+  flex: 1;
+  text-align: right;
+  min-width: 200px;
+}
+.footer-right p {
+  margin: 0 0 5px;
+}
+
+/* Divider */
+.footer hr {
+  border-color: #333;
+}
+
+/* Copyright */
+.footer .small {
+  color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .footer .container-fluid {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-left, 
+  .footer-center, 
+  .footer-right {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer-right {
+    text-align: center;
+  }
+  .footer .impact-boxes {
+    flex-wrap: wrap; /* allow wrapping on smaller screens */
+    gap: 20px;
+  }
+}
+
+
+/* About Section */
+.about-section {
+  background: #111; /* black matte */
+  color: #ddd;
+}
+.about-section .section-title {
+  color: #d4af37; /* gold */
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.about-section .section-title span {
+  color: #fff;
+}
+.about-section p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+.about-list {
+  list-style: none;
+  padding: 0;
+}
+.about-list li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.about-list i {
+  color: #d4af37;
+  margin-right: 8px;
+}
+/* Services Section */
+.services-section {
+  background: #111; /* Matte black */
+  color: #ddd;
+}
+.services-section .section-title {
+  color: #d4af37;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.services-section .section-title span {
+  color: #fff;
+}
+.section-subtitle {
+  color: #aaa;
+  font-size: 16px;
+}
+
+/* Service Cards */
+.service-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  transition: 0.3s;
+  height: 100%;
+}
+.service-card i {
+  color: #d4af37;
+}
+.service-card h5 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.service-card p {
+  color: #bbb;
+  font-size: 14px;
+}
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
+  background: #222;
+}
+/* Gallery */
+.gallery-section {
+  background: #111;
+  color: #ddd;
+}
+.gallery-section .section-title {
+  color: #d4af37;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.gallery-section .section-title span {
+  color: #fff;
+}
+.section-subtitle {
+  color: #aaa;
+  font-size: 16px;
+}
+.gallery-img {
+  transition: 0.4s;
+  border: 3px solid #1f1f1f;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+  border-color: #d4af37;
+}
+/* Testimonials Section */
+.testimonials-section {
+  background: #111;
+  color: #ddd;
+}
+.testimonials-section .section-title {
+  color: #d4af37;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.testimonials-section .section-title span {
+  color: #fff;
+}
+.section-subtitle {
+  color: #aaa;
+  font-size: 16px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  background: #111;
+  color: #fff; /* Make all text default white */
+}
+.testimonials-section .section-title {
+  color: #d4af37;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.testimonials-section .section-title span {
+  color: #fff;
+}
+.section-subtitle {
+  color: #ddd; /* lighter gray subtitle */
+  font-size: 16px;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  max-width: 600px;
+  transition: 0.3s;
+}
+.testimonial-card:hover {
+  background: #222;
+}
+.testimonial-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #d4af37;
+}
+.testimonial-card h5 {
+  color: #d4af37; /* gold name */
+  margin-bottom: 10px;
+}
+.testimonial-card p {
+  font-size: 15px;
+  color: #fff;   /* review text now pure white */
+  font-style: italic;
+}
+.stars {
+  color: #d4af37;
+  font-size: 18px;
+  margin-top: 8px;
+}
+/* Force testimonial text to white */
+.testimonial-card p,
+.testimonial-card .text-muted {
+  color: #fff !important;  /* override bootstrap gray */
+}
+
+/* Optional: also make carousel indicators/controls gold */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(81%) sepia(64%) saturate(415%) hue-rotate(17deg) brightness(94%) contrast(93%);
+}
+/* Contact Hero */
+.contact-hero {
+  background: linear-gradient(160deg, #000 40%, #222 100%);
+  color: #fff;
+}
+.contact-hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+.contact-hero p { color: #ccc; font-size: 1.1rem; }
+
+/* Highlighted text */
+.text-gold { color: #d4af37 !important; }
+
+/* Quick Links Box */
+.bg-secondary {
+  background: #1a1a1a !important;
+}
+/* Doctor Card */
+.doctor-card {
+  background-color: #1a1a1a; /* matches theme */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.doctor-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.9);
+  background-color: #222;
+}
+
+/* Doctor Image */
+.doctor-card img {
+  height: 300px;             /* vertical rectangle */
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.doctor-card:hover img {
+  transform: scale(1.08);
+}
+
+/* Consultation Modal Theme */
+.modal-content {
+  background: #111; /* match site bg */
+  color: #fff;
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+.modal-header {
+  border-bottom: 1px solid #222;
+}
+
+.modal-title {
+  color: #f5c542; /* gold title */
+  font-weight: 600;
+}
+
+.btn-submit {
+  background: #f5c542;
+  color: #111;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-submit:hover {
+  background: #e6b800; /* darker gold */
+}
+
+.form-control {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+}
+.form-control:focus {
+  border-color: #f5c542;
+  box-shadow: none;
+}
+/* Make modal tighter vertically */
+.modal-dialog {
+  max-width: 600px;   /* wider */
+  margin: 1.75rem auto;  /* keep it centered */
+}
+
+.modal-content {
+  background: #0d0d0d;
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid #222;
+  box-shadow: 0px 6px 25px rgba(0,0,0,0.8);
+  padding: 15px 25px;   /* reduced padding */
+}
+
+/* Remove extra space in header & body */
+.modal-header {
+  border-bottom: 1px solid #222;
+  border-radius: 25px 25px 0 0;
+  background: #111;
+  padding: 10px 15px;   /* reduced */
+}
+
+.modal-body {
+  padding: 10px 10px;   /* less vertical space */
+}
+
+.modal-footer {
+  padding: 10px 10px;   /* if you ever add footer buttons */
+}
+
